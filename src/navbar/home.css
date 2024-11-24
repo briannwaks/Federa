@@ -1,0 +1,78 @@
+/* Home.css */
+
+/* Ensure the parent div spans the entire screen */
+.home {
+    height: 100vh;
+    /* Full viewport height */
+    width: 100vw;
+    /* Full viewport width */
+    background-image: url('/src/assets/pexels-fauxels-3184357.jpg');
+    /* Replace with your image path */
+    background-size: cover;
+    /* Ensure the image covers the entire area */
+    background-position: center;
+    /* Center the image */
+    position: relative;
+    /* For layering the overlay */
+}
+
+/* Add the semi-transparent overlay */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(25, 13, 50, 0.723);  
+    /* Black with 50% opacity */
+    display: flex;
+    align-items: center;
+    /* Center items vertically */
+    justify-content: center;
+    /* Center items horizontally */
+}
+
+/* Centered content styling */
+.content {
+    text-align: center;
+    color: #fff;
+    /* White text for visibility */
+}
+
+.content h5 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    padding: 5px 8px;
+    display: inline-block;
+    opacity: 0.5;
+}
+
+
+.content h5 b:hover{
+    opacity: 1;
+    transition: 200ms;
+    color: rgb(25, 11, 87);   
+}
+
+
+
+.content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.content button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+}
+
+.content LearnMore{
+    margin: 10px;
+}
