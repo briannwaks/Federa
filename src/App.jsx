@@ -6,17 +6,21 @@ import Product from './navbar/Product';
 import Features from './navbar/Features';
 import Team from './navbar/Team';
 import Login from './navbar/Login';
+import Footer from './Footer/Footer';
 
 const App = () => (
   <Router>
-    <Navbar />
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/product" element={<Product />} />
-      <Route path="/features" element={<Features />} />
-      <Route path="/team" element={<Team />} />
-      <Route path="/login" element={<Login />} />
-    </Routes>
+    <div>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/product" element={<Product />} />
+        <Route path="/features" element={<Features />} />
+        <Route path="/team" element={<Team />} />
+        <Route path="/login" element={<Login />} />
+      </Routes>
+      <Footer />
+    </div>
   </Router>
 );
 

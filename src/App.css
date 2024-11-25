@@ -40,3 +40,5 @@
 .read-the-docs {
   color: #888;
 }
+
+@import '~@fortawesome/fontawesome-free/css/all.min.css';

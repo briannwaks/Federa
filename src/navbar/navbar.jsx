@@ -1,11 +1,11 @@
-
+import './navbar.css'
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark fixed-top">
+    <nav className="navbar navbar-expand-lg  fixed-top">
       <div className="container-fluid">
-        <Link className="navbar-brand" to="/"><img src="../assets/federalogo.png" style={{ height: '40px'}}  alt="Federa" /></Link>
+        <Link className="navbar-brand" to="/"><img src="/federalogo2.png" style={{ height: '40px', width: 'auto'}}  alt="Federa" /></Link>
         <button
           className="navbar-toggler"
           type="button"

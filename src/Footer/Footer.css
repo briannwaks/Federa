@@ -1,0 +1,30 @@
+.footer {
+    position: relative; /* Default positioning; change to 'fixed' if needed */
+    bottom: 0;
+    width: 100%;
+    background-color:#2a135b; /* Dark background */
+    color: #fff; /* White text */
+    padding: 1rem 0;
+}
+  
+.footer a {
+    color: #fff;
+}
+  
+.footer a:hover {
+    color: #bbb; /* Change color on hover */
+}
+
+.footer a {
+  color: #fff;
+  font-size: 1.5rem; /* Increase icon size */
+}
+
+.footer a:hover {
+  color: #bbb; /* Slightly lighter color on hover */
+}
+
+.footer .footer-left p {
+  margin: 0;
+}
+
