@@ -1,15 +1,16 @@
 /* Make Navbar transparent */
 .navbar {
-    background-color: transparent !important; /* Transparent background */
-    border: none; /* Remove borders */
-  }
+  background-color: transparent !important; /* Transparent background */
+  border: none; /* Remove borders */
+}
+
   
   /* Make Navbar text and buttons white */
-  .nav-link, .btn-outline-light {
+.nav-link, .btn-outline-light {
     color: #fff !important;
-  }
+}
   
-  .nav-link:hover {
+.nav-link:hover {
     color: #2a135b !important; /* Slightly lighter hover color */
-  }
-  
+}
+

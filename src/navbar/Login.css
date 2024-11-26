@@ -1,0 +1,62 @@
+/* General Styling */
+.login-page {
+    background-color: #ffffff; /* White background */
+    min-height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.login-logo {
+    max-width: 120px; /* Adjust logo size */
+    height: auto;
+}
+  
+.login-form {
+    max-width: 400px; /* Restrict form width */
+}
+  
+  /* Forgot Password Link */
+.forgot-password {
+    color: rgba(10, 6, 127, 0.962);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 0.875rem; /* Smaller text */
+}
+  
+.forgot-password:hover {
+    text-decoration: solid;
+}
+  
+  /* Purple Button */
+  .btn-purple {
+    background-color: rgba(10, 6, 127, 0.962);
+    color: white;
+    border: none;
+    padding: 10px 180px;
+    border-radius: 10px;
+    white-space: nowrap;
+    
+}
+  
+.btn-purple:hover {
+    background-color: #5a007d; /* Darker purple on hover */
+}
+  
+  /* Highlighted Text */
+.highlighted-text {
+    color:  rgba(10, 6, 127, 0.962);
+    cursor: pointer;
+    font-weight: bold;
+}
+  
+.highlighted-text:hover {
+    text-decoration: underline;
+}
+  
+  /* Form Input Styling */
+.form-control {
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px;
+}
+  
