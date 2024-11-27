@@ -18,10 +18,10 @@ const Features = () => {
         {/* Features Grid */}
         <div className="row mt-5">
           {/* Feature 1 */}
-          <div className="col-md-6 d-flex align-items-center mb-5 ">
+          <div className="col-md-6 d-flex align-items-center mb-5 text-start ">
             <i className="fa-solid fa-cloud-arrow-up text-primary mb-4"></i>
             <div>
-              <p className="fw-bold text-dark  ">
+              <p className="fw-bold text-dark   ">
                 Push to Deploy</p>
               <p className="fw-light text-dark">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur quis temporibus sunt itaque ea quasi?
@@ -30,7 +30,7 @@ const Features = () => {
           </div>
 
           {/* Feature 2 */}
-          <div className="col-md-6 d-flex align-items-start mb-4">
+          <div className="col-md-6 d-flex align-items-start mb-4 text-start">
             <i className="fa-solid fa-lock text-primary mb-4 "></i>
             <div>
               <p className="fw-bold text-dark">SSL Certificates</p>
@@ -41,7 +41,7 @@ const Features = () => {
           </div>
 
           {/* Feature 3 */}
-          <div className="col-md-6 d-flex align-items-start mb-4">
+          <div className="col-md-6 d-flex align-items-start mb-4 text-start">
             <i className="fa-solid fa-rotate text-primary me-4 "></i>
             <div>
               <p className="fw-bold text-dark">Simples Queues</p>
@@ -52,7 +52,7 @@ const Features = () => {
           </div>
 
           {/* Feature 4 */}
-          <div className="col-md-6 d-flex align-items-start mb-4">
+          <div className="col-md-6 d-flex align-items-start mb-4 text-start">
             <i className="fa-solid fa-fingerprint text-primary me-4 "></i>
             <div>
               <p className="fw-bold text-dark">Advanced Security</p>

@@ -11,11 +11,11 @@ const Team = () => {
         <p/>and dedicated to delivering the best value for our clients.</p>
 
         <div className="row mt-5">
-          {/* Team Member 1 */}
+          
           <div className="col-md-4 mb-4">
             <div className="team-card">
               <img
-                src="/public/team1.png"
+                src="/team1.png"
                 alt="Team Member 1"
                 className="team-image"
               />
@@ -36,7 +36,7 @@ const Team = () => {
           <div className="col-md-4 mb-4">
             <div className="team-card">
               <img
-                src="/public/team2.jpg"
+                src="/team2.jpg"
                 alt="Team Member 2"
                 className="team-image"
               />
@@ -56,7 +56,7 @@ const Team = () => {
           <div className="col-md-4 mb-4">
             <div className="team-card">
               <img
-                src="/public/team3.jpg"
+                src="/team3.jpg"
                 alt="Team Member 2"
                 className="team-image"
               />
@@ -73,16 +73,15 @@ const Team = () => {
             </div>
           </div>
 
-          {/* Add 4 More Cards in Similar Fashion */}
-          {/* Example: Team Member 3, 4, 5, 6 */}
+          
         </div>
 
         <div className="row mt-5">
-          {/* Team Member 1 */}
+          
           <div className="col-md-4 mb-4">
             <div className="team-card">
               <img
-                src="/public/team4.jpg"
+                src="/team4.jpg"
                 alt="Team Member 1"
                 className="team-image"
               />
@@ -99,11 +98,11 @@ const Team = () => {
             </div>
           </div>
 
-          {/* Repeat for Other Team Members */}
+          
           <div className="col-md-4 mb-4">
             <div className="team-card">
               <img
-                src="/public/team5.jpg"
+                src="/team5.jpg"
                 alt="Team Member 2"
                 className="team-image"
               />
@@ -123,7 +122,7 @@ const Team = () => {
           <div className="col-md-4 mb-4">
             <div className="team-card">
               <img
-                src="/public/team6.jpg"
+                src="/team6.jpg"
                 alt="Team Member 2"
                 className="team-image"
               />
@@ -140,8 +139,7 @@ const Team = () => {
             </div>
           </div>
 
-          {/* Add 4 More Cards in Similar Fashion */}
-          {/* Example: Team Member 3, 4, 5, 6 */}
+         
         </div>
       </div>
     </div>

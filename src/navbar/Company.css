@@ -1,0 +1,13 @@
+.company-page {
+    min-height: 100vh;
+  }
+  
+  .text-start {
+    text-align: left !important;
+  }
+  
+  img {
+    max-width: 100%;
+    object-fit: cover;
+  }
+  
