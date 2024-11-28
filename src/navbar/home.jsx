@@ -15,9 +15,9 @@ const Home = () => {
                             </b>
                         </Link>
                     </h5>
-                    <h1 className='w-75' id="hero-text">Data to Enrich Your Online Business</h1>
+                    <h1 className='w-75 animate__animated animate__tada' id="hero-text">Data to Enrich Your Online Business</h1>
                     <p className="mt-3 w-50 mx-auto opacity-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, maiores nam dolor dolorem illum sapiente earum velit </p>
-                    <div className="button-group d-flex gap-2 align-items-center justify-content-center">
+                    <div className="animate__animated animate__slideInUp button-group d-flex gap-2 align-items-center justify-content-center">
                         <Link className="btn btn-primary mt-4">Get Started</Link>
                         
                         <Link className='btn  mt-4 d-flex gap-2 align-items-center underline'>
