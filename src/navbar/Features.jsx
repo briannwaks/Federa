@@ -15,7 +15,7 @@ const Features = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nam cum sint pariatur laborum aperiam..
         </p>
 
-        {/* Features Grid */}
+        
         <div className="row mt-5">
           {/* Feature 1 */}
           <div className="col-md-6 d-flex align-items-center mb-5 text-start ">

@@ -3,20 +3,13 @@
 /* Ensure the parent div spans the entire screen */
 .home {
     height: 100vh;
-    /* Full viewport height */
     width: 100vw;
-    /* Full viewport width */
-    background-image: url('/src/assets/pexels-fauxels-3184357.jpg');
-    /* Replace with your image path */
-    background-size: cover;
-    /* Ensure the image covers the entire area */
+    background-image: url('/src/assets/pexels-fauxels-3184357.jpg'); 
+    background-size: cover; 
     background-position: center;
-    /* Center the image */
     position: relative;
-    /* For layering the overlay */
 }
 
-/* Add the semi-transparent overlay */
 .overlay {
     position: absolute;
     top: 0;
@@ -24,29 +17,27 @@
     height: 100%;
     width: 100%;
     background-color: rgba(25, 13, 50, 0.723);  
-    /* Black with 50% opacity */
     display: flex;
     align-items: center;
-    /* Center items vertically */
     justify-content: center;
-    /* Center items horizontally */
+
 }
 
-/* Centered content styling */
+
 .content {
     text-align: center;
     color: #fff;
-    /* White text for visibility */
 }
 
 .content h5 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
-    border: 2px solid #fff;
-    border-radius: 15px;
-    padding: 5px 8px;
-    display: inline-block;
-    opacity: 0.5;
+    border: 1px solid #ffffff3d;
+    border-radius: 30px;
+    padding: 10px;
+    width: fit-content;
+
+
 }
 
 
@@ -59,8 +50,10 @@
 
 
 .content h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     margin-bottom: 1rem;
+    font-weight: bolder;
+    margin: auto;
 }
 
 .content p {
@@ -76,3 +69,12 @@
 .content LearnMore{
     margin: 10px;
 }
+
+.underline{
+  text-decoration: none;
+}
+
+.underline:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+  }

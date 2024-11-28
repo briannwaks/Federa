@@ -1,34 +1,33 @@
-/* Features Page Background */
-/* Features Page Background */
+
 .features-page {
-    background-color: #fff; /* White background */
+    background-color: #fff; 
     min-height: 100vh;
     padding: 2rem 0;
 }
   
-  /* Icon Styling */
+
 .feature-icon {
-    font-size: 2rem; /* Large size for icons */
+    font-size: 2rem; 
     margin-right: 15px;
-    color: #007bff; /* Primary blue */
-    flex-shrink: 0; /* Prevent the icon from shrinking */
+    color: #007bff; 
+    flex-shrink: 0;
 }
   
-  /* Align Text and Icon */
+
 .d-flex {
-    align-items: flex-start; /* Align items at the top */
+    align-items: flex-start;
 }
   
-  /* Header Styling */
+ 
 h5 {
     text-transform: uppercase;
     letter-spacing: 1px;
 }
   
-  /* Responsive Design */
+
 @media (max-width: 768px) {
     .features-page .row .col-md-6 {
-      margin-bottom: 1.5rem; /* Add spacing between stacked columns */
+      margin-bottom: 1.5rem; 
     }
 }
 

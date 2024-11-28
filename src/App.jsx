@@ -7,7 +7,8 @@ import Features from './navbar/Features';
 import Team from './navbar/Team';
 import Login from './navbar/Login';
 import Footer from './Footer/Footer';
-import Comapny from './navbar/Company';
+import Company from './navbar/Company';
+import Contacts from './Contacts';
 
 const App = () => (
   <Router>
@@ -19,9 +20,11 @@ const App = () => (
         <Route path="/features" element={<Features />} />
         <Route path="/team" element={<Team />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/company" element={<Comapny />}/>
+        <Route path="/company" element={<Company />}/>
+        <Route path="/contacts" element={<Contacts />}/>
       </Routes>
       <Footer />
+      
     </div>
   </Router>
 );

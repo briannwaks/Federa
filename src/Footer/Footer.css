@@ -1,30 +1,35 @@
 .footer {
-    position: relative; /* Default positioning; change to 'fixed' if needed */
+    position: relative;
     bottom: 0;
     width: 100%;
-    background-color:#2a135b; /* Dark background */
-    color: #fff; /* White text */
+    background-color:#2a135b; 
+    color: #fff; 
     padding: 1rem 0;
 }
   
-.footer a {
-    color: #fff;
-}
-  
 .footer a:hover {
-    color: #bbb; /* Change color on hover */
-}
-
-.footer a {
-  color: #fff;
-  font-size: 1.5rem; /* Increase icon size */
-}
-
-.footer a:hover {
-  color: #bbb; /* Slightly lighter color on hover */
+  color: #ffffff;
 }
 
 .footer .footer-left p {
   margin: 0;
 }
 
+.col{
+  list-style-type: none;
+}
+
+.col li{
+  font-size: 1em ;
+  color: #ffffff5b;
+}
+
+.col a{
+  color: #ffffff5b;
+  text-decoration: none;
+
+}
+
+.col a:hover{
+  text-decoration: underline;
+}

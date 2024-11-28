@@ -1,49 +1,88 @@
 
-import './Footer.css'; // Optional: Add styles for the footer
+import { Link } from 'react-router-dom';
+import './Footer.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 
 const Footer = () => {
   return (
-    <footer className="footer  text-white py-5">
+    <footer className="footer  text-white p-5">
+
       <div className='row align-items-center'>
-
-        <div className='col-md-2 ms-5 '>
-          <p><b>Solutions</b></p>
-          <li className='opacity-50 list-unstyled '>
-            <p>Marketing </p>
-            <p>Analytics</p>
-            <p>Automation</p>
-            <p>Commerce</p>
-            <p>Insights</p>
+        {/* solutions */}
+        <ul className='col d-flex flex-column gap-3'>
+          <li className='text-white'><b>Solutions</b></li>
+          <li>
+            <Link>Marketing</Link>
           </li>
-        </div>
-
-        <div className='col-md-2 mb-5'>
-          <p><b>Support</b></p>
-          <li className='opacity-50 list-unstyled '>
-            <p>Submit Ticket </p>
-            <p>Documentation</p>
-            <p>Guides</p>
+          <li>
+            <Link>Analytics</Link>
           </li>
-        </div>
-
-        <div className='col-md-2 py-5'>
-          <p><b>Company</b></p>
-          <li className='opacity-50 list-unstyled '>
-            <p>About</p>
-            <p>Blog</p>
-            <p>Jobs</p>
-            <p>Press</p>
+          <li>
+            <Link>Automation</Link>
           </li>
-        </div>
-
-        <div className='col-md-2 mb-5'>
-          <p><b>Legal</b></p>
-          <li className='opacity-50 list-unstyled '>
-            <p>Terms of Service</p>
-            <p>Privacy Policy</p>
-            <p>License</p>
+          <li>
+            <Link>Commerce</Link>
           </li>
-        </div>
+          <li>
+            <Link>Marketing</Link>
+          </li>
+        </ul>
+
+        {/* support */}
+        <ul className='col d-flex flex-column gap-3'>
+          <li className='text-white'><b>Support</b></li>
+          <li>
+            <Link>Support</Link>
+          </li>
+          <li>
+            <Link>Submit Ticket</Link>
+          </li>
+          <li>
+            <Link>Documentation</Link>
+          </li>
+          <li>
+            <Link>Guides</Link>
+          </li>
+        </ul>
+
+        {/* company */}
+        <ul className='col d-flex flex-column gap-3'>
+          <li className='text-white'><b>Company</b></li>
+          <li>
+            <Link>About</Link>
+          </li>
+          <li>
+            <Link>Blog</Link>
+          </li>
+          <li>
+            <Link>Jobs</Link>
+          </li>
+          <li>
+            <Link>Press</Link>
+          </li>
+        </ul>
+
+
+        {/* Legal */}
+
+        <ul className='col d-flex flex-column gap-3'>
+          <li className='text-white'><b>Legal</b></li>
+          <li>
+            <Link>Terms of Service</Link>
+          </li>
+          <li>
+            <Link>Privacy Policy</Link>
+          </li>
+          <li>
+            <Link>License</Link>
+          </li>
+          <li>
+            <Link>Press</Link>
+          </li>
+        </ul>
+
+
 
         <div className='col mb-5'>
           <p><b>Subscribe to our Newsletter</b></p>
@@ -69,19 +108,22 @@ const Footer = () => {
           <div className="col-md ms-3 "><img src="/federalogo2.png" style={{ height: '70px', width: 'auto' }} alt="Federa" /></div>
           <div className='col-md  '><p className='text-start'>&copy; 2024 Federa ltd. All rights reserved.</p></div>
 
-          <div className=" col-md footer-right text-end">
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-white me-3">
-              <i className="fab fa-facebook-f"></i>
-            </a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-white me-3">
-              <i className="fab fa-twitter"></i>
-            </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-white">
-              <i className="fab fa-instagram"></i>
-            </a>
-            
+          <div className=" col-md  text-end d-flex align-items-center justify-content-end gap-5">
+            <Link href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-white ">
+              <FontAwesomeIcon icon={['fab', 'facebook']} />
+            </Link>
+
+            <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-white ">
+              <FontAwesomeIcon icon={['fab', 'instagram']} />
+            </Link>
+
+            <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-white ">
+              <FontAwesomeIcon icon={['fab', 'twitter']} />
+            </Link>
+
           </div>
         </div>
+
       </div>
     </footer >
 
